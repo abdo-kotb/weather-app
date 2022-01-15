@@ -119,7 +119,8 @@ const displayError = function () {
   const html = `
     <p class="error">No results found :( Please try again!</p>
   `;
-  searchInput.insertAdjacentHTML('afterend', html);
+  if (!document.querySelector('.error'))
+    searchInput.insertAdjacentHTML('afterend', html);
 };
 
 searchInput.addEventListener('search', function () {
