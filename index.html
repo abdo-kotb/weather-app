@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/weather-icons.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer src="script.js"></script>
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <p class="date"></p>
+        <i class="wi wi-celsius unit"></i>
+      </div>
+      <div class="body">
+        <div class="main-details">
+          <p class="city">Location</p>
+          <div class="temp-container">
+            <h1 class="cur-temp">N/A</h1>
+            <div class="other-temp">
+              <span class="max-temp">N/A</span>
+              <span class="min-temp">N/A</span>
+            </div>
+          </div>
+          <div class="status">
+            <p class="desc">Overcast</p>
+            <p class="feels-temp">Feels like N/A</p>
+          </div>
+        </div>
+        <div class="weather-icon">
+          <i class="wi wi-day-sunny"></i>
+        </div>
+        <div class="sec-details">
+          <div class="item">
+            <p class="details-head">Wind</p>
+            <p class="details-text wind"></p>
+          </div>
+          <div class="item">
+            <p class="details-head">Humidity</p>
+            <p class="details-text humidity"></p>
+          </div>
+          <div class="item">
+            <p class="details-head">Pressure</p>
+            <p class="details-text pressure"></p>
+          </div>
+        </div>
+      </div>
+      <div class="search-container">
+        <input
+          type="search"
+          class="city-search"
+          placeholder="Enter your city name"
+        />
+      </div>
+    </div>
+  </body>
+</html>
