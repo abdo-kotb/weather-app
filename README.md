@@ -10,12 +10,11 @@ This is a weather app built with Open Weather Map API
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [Continued development](#continued-development)
 - [Author](#author)
 
 ## Overview
 
-### The challenge
+### The goal
 
 Users should be able to:
 
