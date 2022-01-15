@@ -52,6 +52,12 @@ body {
   font-size: 2.4rem;
 }
 
+.title {
+  text-align: center;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
 .body {
   display: flex;
   justify-content: space-between;
